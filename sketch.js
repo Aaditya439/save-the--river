@@ -82,7 +82,7 @@ function draw() {
     
 
     
-    if((mousePressedOver(play) || touches.length > 0) && gameState == "serve"){
+    if(mousePressedOver(play) && gameState == "serve"){
       gameState = "play"
     }
 
